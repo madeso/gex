@@ -1,7 +1,9 @@
-#include <iostream>
+#include "gex/chip8.hh"
 
 int main()
 {
-	std::cout << "hello world\n";
+	gex::Chip8 c;
+	c.run();
+
 	return 0;
 }
